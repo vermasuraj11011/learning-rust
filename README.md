@@ -8,3 +8,18 @@ Rust is a systems programming language that runs blazingly fast, prevents segfau
 
 To install Rust, download and run rustup-init.exe from https://rustup.rs/.
 This will install the Rust compiler and package manager, Cargo.
+
+### Hello, World!
+
+- Create a new project with `cargo new hello`
+- Navigate to the project directory with `cd hello`
+- Open src/main.rs in a text editor
+- Add the following code:
+
+```rust
+fn main() {
+    println!("Hello, world!");
+}
+```
+
+- Run the project with `cargo run`
